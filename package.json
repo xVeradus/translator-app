@@ -12,11 +12,16 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@capacitor-mlkit/language-identification": "^8.2.0",
+    "@capacitor-mlkit/translation": "^8.1.0",
+    "@capacitor/android": "8.4.2",
     "@capacitor/app": "8.1.1",
+    "@capacitor/clipboard": "^8.0.1",
     "@capacitor/core": "8.4.2",
     "@capacitor/haptics": "8.0.2",
     "@capacitor/keyboard": "8.0.5",
     "@capacitor/status-bar": "8.0.3",
+    "@capawesome-team/capacitor-speech-synthesis": "^8.0.3",
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",
     "ionicons": "^7.0.0",
