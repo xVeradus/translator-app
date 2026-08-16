@@ -1,7 +1,7 @@
 ## 🚀 Setup & Installation
 
 ### Voraussetzungen
-*   Node.js 18 oder neuer
+*   Node.js 22 oder neuer
 *   Android Studio
 *   JDK 17 oder neuer
 *   Android-Gerät oder Emulator mit Google Play Services
@@ -17,7 +17,12 @@ npm config set //npm.registry.capawesome.io/:_authToken <LIZENZSCHLUESSEL>
 
 ### 2. Installation und Starte
 1.  **Repository klonen**:
-    ``` npm install
+    ```
+    git clone https://github.com/xVeradus/translator-app.git
+    ```
+2. **npm installieren und build bauen:**
+    ``` 
+    npm install
     npm run build && npx cap sync android && npx cap run android
     ```
 
