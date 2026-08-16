@@ -9,7 +9,7 @@
 
 ### 1. Lizenzschlüssel Einrichten
     ``` 
-npm config 
+    npm config 
     set @capawesome-team:registry https://npm.registry.capawesome.io 
     ```
     ``` 
