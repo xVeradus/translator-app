@@ -7,11 +7,11 @@
 *   Android-Gerät oder Emulator mit Google Play Services
 *   Capawesome-Insiders-Lizenzschlüssel
 
-### Lizenzschlüssel Einrichten
+### 1. Lizenzschlüssel Einrichten
     ```npm config set @capawesome-team:registry https://npm.registry.capawesome.io```
     ```npm config set //npm.registry.capawesome.io/:_authToken <LIZENZSCHLUESSEL>```
 
-### Installation und Starte
+### 2. Installation und Starte
 1.  **Repository klonen**:
     ``` npm install
     npm run build && npx cap sync android && npx cap run android
