@@ -8,8 +8,13 @@
 *   Capawesome-Insiders-Lizenzschlüssel
 
 ### 1. Lizenzschlüssel Einrichten
-    ```npm config set @capawesome-team:registry https://npm.registry.capawesome.io```
-    ```npm config set //npm.registry.capawesome.io/:_authToken <LIZENZSCHLUESSEL>```
+    ``` 
+npm config 
+    set @capawesome-team:registry https://npm.registry.capawesome.io 
+    ```
+    ``` 
+    npm config set //npm.registry.capawesome.io/:_authToken <LIZENZSCHLUESSEL>
+    ```
 
 ### 2. Installation und Starte
 1.  **Repository klonen**:
