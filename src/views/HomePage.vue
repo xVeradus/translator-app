@@ -377,6 +377,7 @@ async function speakTranslation() {
 
     if (!supportResult.isAvailable) {
       speechMessage.value = `Für ${speechTag} ist keine Stimme installiert.`;
+      isSpeaking.value = false;
       return;
     }
 
@@ -392,7 +393,6 @@ async function speakTranslation() {
     console.error("Fehler bei der Sprachausgabe:", error);
 
     speechMessage.value = "Die Übersetzung konnte nicht vorgelesen werden.";
-  } finally {
     isSpeaking.value = false;
   }
 }
