@@ -14,6 +14,9 @@ git clone https://github.com/xVeradus/translator-app.git
 ```
 ### 2 Lizenzschlüssel Einrichten
 ```
+cd translator-app
+```
+```
 npm config set @capawesome-team:registry https://npm.registry.capawesome.io 
 ```
 ``` 
@@ -24,6 +27,8 @@ npm config set //npm.registry.capawesome.io/:_authToken <LIZENZSCHLUESSEL>
 **npm installieren und build bauen:**
 ``` 
 npm install
+```
+```
 npm run build && npx cap sync android && npx cap run android
 ```
 
