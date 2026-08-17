@@ -7,20 +7,24 @@
 *   Android-Gerät oder Emulator mit Google Play Services
 *   Capawesome-Insiders-Lizenzschlüssel
 
-### 1. Lizenzschlüssel Einrichten
- ``` 
+### 1. Installation
+1.  **Repository klonen**:
+    ```
+    git clone https://github.com/xVeradus/translator-app.git
+ 
+### 2 Lizenzschlüssel Einrichten
+ 
+ ```
 npm config set @capawesome-team:registry https://npm.registry.capawesome.io 
 ```
 ``` 
 npm config set //npm.registry.capawesome.io/:_authToken <LIZENZSCHLUESSEL>
 ```
 
-### 2. Installation und Starten
-1.  **Repository klonen**:
+### 3. Starten
+
     ```
-    git clone https://github.com/xVeradus/translator-app.git
-    ```
-2. **npm installieren und build bauen:**
+**npm installieren und build bauen:**
     ``` 
     npm install
     npm run build && npx cap sync android && npx cap run android
