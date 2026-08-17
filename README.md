@@ -9,12 +9,11 @@
 
 ### 1. Installation
 1.  **Repository klonen**:
-    ```
-    git clone https://github.com/xVeradus/translator-app.git
- 
+```
+git clone https://github.com/xVeradus/translator-app.git
+```
 ### 2 Lizenzschlüssel Einrichten
- 
- ```
+```
 npm config set @capawesome-team:registry https://npm.registry.capawesome.io 
 ```
 ``` 
@@ -22,13 +21,11 @@ npm config set //npm.registry.capawesome.io/:_authToken <LIZENZSCHLUESSEL>
 ```
 
 ### 3. Starten
-
-    ```
 **npm installieren und build bauen:**
-    ``` 
-    npm install
-    npm run build && npx cap sync android && npx cap run android
-    ```
+``` 
+npm install
+npm run build && npx cap sync android && npx cap run android
+```
 
 
 ### Gruppe
